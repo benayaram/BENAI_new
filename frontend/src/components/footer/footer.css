@@ -1,0 +1,49 @@
+.footer {
+    background-color: #007BFF; /* Scientific blue background color */
+    color: white; /* Text color */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .follow-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .company-logo img {
+    width: 50px; /* Adjust the logo size as needed */
+  }
+  
+  .footer-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .footer-links li {
+    margin-right: 20px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Style for hover or active links */
+  .footer-links a:hover,
+  .footer-links a.active {
+    color: #17a2b8; /* Lighter blue for hover/active */
+  }
+  
